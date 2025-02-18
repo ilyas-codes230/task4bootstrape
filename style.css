@@ -1,0 +1,157 @@
+
+.py-3{
+  padding: 0px !important;
+}
+#logo img{
+  max-width: 517px;
+  position: relative;
+  bottom: 0px;
+  right: 20px;
+}
+.text-center p{
+  font-size: 14px;
+  margin: 0px;
+}
+.text-center h1{
+  font-size: 35px;
+  margin-bottom: 0px;
+  line-height: 33px;
+}
+.text-center #call{
+font-size: 18px;
+margin: 0px;
+}
+.text-center hr{
+  margin: 0px;
+}
+.navbar{
+  background: brown;
+}
+/* MMMMMMM */
+
+/* .imgandform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 3%;
+}
+
+.banner img {
+  width: 580px;
+  height: 433px;
+}
+
+/* .leftsideform */
+.login {
+  background-image: url("task4 img/form_bg.jpg");
+  width: 600px;
+  height: 433px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formheadrtext {
+  display: flex;
+}
+
+#head1inform {
+  background-color: brown;
+  color: white;
+  margin: 0px;
+  height: 40px;
+  padding: 6px;
+}
+
+#head2inform {
+  align-self: center;
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+#bluehead {
+  color: rgb(43, 43, 184);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.formelements {
+  display: flex;
+  justify-content: center;
+}
+
+#formfirstpargraph {
+  align-items: center;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  margin-top: 14px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.emailnamephone {
+  align-items: center;
+  text-align: center;
+  line-height: 7px;
+}
+
+.emailnamephone #lebletext {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.confidentialimg img {
+  height: 33px;
+  transform: rotate(20deg);
+}
+
+.login #textarea {
+  position: relative;
+  left: 61px;
+  top: 7px;
+}
+
+.bottomoform {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.bottomoform p {
+  font-size: 1px;
+  font-style: italic;
+  color: darkgray;
+}
+
+.btnform button {
+  background-color: brown;
+  width: 149px;
+  height: 35px;
+  color: white;
+  font-size: 11px;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .imgandform {
+      flex-direction: column;
+  }
+
+  .banner img {
+      width: 100%;
+      height: auto;
+  }
+
+  .login {
+      width: 100%;
+      height: auto;
+  }
+} */
