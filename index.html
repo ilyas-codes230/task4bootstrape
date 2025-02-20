@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <title>Document</title>
+
 </head>
 
 <body>
@@ -16,27 +17,22 @@
 
     <header class="container-fluid p-0">
         <div class="row align-items-center g-0">
-            <!-- Image Section (Left) -->
             <div class="col-md-6 text-center">
-                <img src="task4 img/logo.png" alt="Logo" id="logo" class="img-fluid"
-                    style="max-width: 90%; height: auto;">
+                <img src="task4 img/logo.png" alt="Logo" class="img-fluid" style="max-width: 90%; height: auto;">
             </div>
-
-            <!-- Heading Section (Right) -->
-            <div class="col-md-6 text-end" style="max-width: 45%;">
-                <p id="call" class="text-danger fw-bold mb-0" style="font-size: 125%;">CALL OUR OFFICES NOW!</p>
-                <!-- Right-aligned hr -->
-                <hr class="border-2 border-dark" style="width: 234px; margin-left: auto; margin: 0; margin-left: 49%;">
+            <div class="col-md-3 offset-md-3 text-end">
+                <p class="text-danger fw-bold mb-0" style="font-size: 125%;">CALL OUR OFFICES NOW!</p>
+                <hr class="border-2 border-dark" style="width: 234px; margin-left: auto; margin: 0; position: relative;
+    left: 6%;">
                 <h1 class="fw-bold mb-0">540.433.6906</h1>
-                <p id="question" class="text-muted mb-0">Get Your Question Answered Fast</p>
+                <p class="text-muted mb-0">Get Your Question Answered Fast</p>
             </div>
         </div>
     </header>
 
 
-
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark  ">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -53,76 +49,139 @@
             </div>
         </div>
     </nav>
-    
 
 
+    <!-- LOGINPART -->
+    <div class="padding:3% row">
+        <div class="col-6 col-xl-6  col-lg-6 col-md-6 col-sm-12">
+            <img src="task4 img/gurantee_banner.gif" alt="" class="img-fluid">
+        </div>
+        <div class="col-xl-6  col-lg-6 col-md-6 col-sm-12 login">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- MAIN SECTION -->
-    <!-- <main class="container my-4">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="task4 img/gurantee_banner.gif" alt="Guarantee Banner" class="img-fluid">
+            <div class="questionAnabout">
+                <h1 id="question">QUESTION?</h1>
+                <h3 id="About">Have a <span id="questioncolor">Question</span><br> About Your Case?</h3>
             </div>
-            <div class="col-md-6 p-4 text-white" style="background: url('task4 img/form_bg.jpg') no-repeat center/cover;">
-                <h3 class="bg-danger text-white p-2">QUESTIONS?</h3>
-                <h4 id="ask">Have a <span class="highlight text-primary"> Question</span><br>About Your Case?</h4>
-                <p id="graph">Enter your information and get your questions answered quickly and discreetly or call us at:
-                    <span id="number" class="fw-bold">540.433.6906</span>
-                </p>
-                <form>
-                    <div class="mb-2">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" class="form-control">
-                    </div>
-                    <div class="mb-2">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" class="form-control">
-                    </div>
-                    <div class="mb-2">
-                        <label for="phone">Phone:</label>
-                        <input type="tel" id="phone" class="form-control">
-                    </div>
-                    <div class="mb-2">
-                        <textarea id="message" class="form-control" rows="3" placeholder="Tell me your case here..."></textarea>
-                    </div>
-                    <button class="btn btn-danger w-100">Ask Us About Your Case</button>
-                </form>
+            <p id="information">Enter your information and get your question Answered <br> quickly and discritly or call
+                us at <span> <b>540.433.6906</b> </span></p>
+            <div class="formAndimg">
+                <div class="form">
+                    <label class="box" id="box1">Name:</label>
+                    <input type="text" name="name" id="box11">
+                    <br> <br>
+                    <label class="box" id="box2">Emial:</label>
+                    <input type="text" name="email" id="box21">
+                    <br> <br>
+                    <label class="box" id="box3">Phone:</label>
+                    <input type="text" name="Phone" id="box31">
+                    <br>
+
+
+                </div>
+                <div id="confidential-container" class="text-center">
+                    <img id="confidential-img" class="img-fluid confidential-class" src="task4 img/confidential.png"
+                        alt="Confidential Image">
+                </div>
+
+            </div>
+            <textarea class="form-control" rows="2" placeholder="Tell us about your case here..."></textarea>
+
+            <div class="privacyAndButton">
+                <p id="Guaranteed">100% privacy Guaranteed</p>
+                <button class="Askbutton">
+                    Ask Us About Your Case <img src="task4 img/bullet_white.gif" alt="">
+                </button>
             </div>
         </div>
-    </main> -->
+    </div>
+
+
+    <!-- MIDDLE PART -->
+    <div class="container pt-3">
+        <div class="row">
+            <!-- BOX1 -->
+            <div class="col-md-4 p-3">
+                <h1 class="fw-bold custom-font">CHARGED WITH <span class="text-brown">DUI?</span></h1>
+                <h2 class="fw-bold random-font">FREE CASE EVALUATION</h2>
+                <div id="content-wrapper" class="d-flex align-items-center">
+                    <p id="content-text" class="custom-text">
+                        Being charged with a DUI <br>
+                        can be scary. Get the help <br>
+                        you deserve. <br><br>
+                        Click here to let us know <br>
+                        how we can help you with <br>
+                        your case.
+                    </p>
+                    <img id="content-image" src="task4 img/paste_board.gif" alt="DUI Help" class="custom-img">
+                </div>
+                <hr id="custom-divider" class="custom-hr">
+                <button id="custom-button" class="btn custom-btn">
+                    CLICK HERE <img id="custom-button-img" src="task4 img/bullet_white_lrg.png" alt="">
+                </button>
+            </div>
+
+            <!-- BOX2 -->
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-12 p-3">
+                        <h1 class="fw-bold custom-heading">LAW <span class="text-brown">BLOG</span></h1>
+                        <p id="traffic-law-text" class="paragraph-traffic">Learn more about <br> Virginia Traffic Laws.
+                        </p>
+                        <div id="content-container" class="d-flex align-items-center justify-content-between">
+                            <div id="left-content" class="d-flex flex-column align-items-center">
+                                <hr id="custom-divider1" class="custom-hr">
+                                <button id="custom-button1" class="btn custom-btn">
+                                    CLICK HERE <img id="custom-button-img" src="task4 img/bullet_white_lrg.png" alt="">
+                                </button>
+                            </div>
+
+                            <div id="right-content">
+                                <img id="custom-image" src="task4 img/pic1.gif" alt="Traffic Law Image"
+                                    class="custom-img">
+                            </div>
+                        </div>
+                    </div>
+                    <hr id="box2hr" class="custom-hr">
+
+
+
+                    <!-- BOX2SECONDROW -->
+                    <div class="col-12 p-3">
+                        <h1 id="case-heading" class="fw-bold case-title">CASE <span id="results-text"
+                                class="case-results">RESULTS</span></h1>
+                        <p id="client-help-text" class="paragraph-client">See how we help our clients. <br>
+                            Read our latest case results.</p>
+                            <div id="content-wrapper" class="d-flex align-items-center gap-3">
+                                <!-- Left Section: HR and Button -->
+                                <div id="left-content" class="d-flex flex-column align-items-start">
+                                    <hr id="custom-divider-13" class="divider-style">
+                                    <button id="custom-button-14" class="btn button-style">
+                                        CLICK HERE <img id="custom-button-img-15" src="task4 img/bullet_white_lrg.png" alt="">
+                                    </button>
+                                </div>
+                            
+                                <!-- Right Section: Image -->
+                                <div id="image-container" class="box3right">
+                                    <img id="custom-image-16" class="img-fluid" src="task4 img/order_icon.gif" alt="">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- Right Column -->
+            <div class="col-md-4 p-3">Right Column</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

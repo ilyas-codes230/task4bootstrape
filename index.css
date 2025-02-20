@@ -1,0 +1,298 @@
+.navbar {
+    background-color: brown;
+}
+
+/* ,.,.,,. */
+.row {
+    margin-top: 1%;
+}
+
+.img-fluid {
+    max-width: 95%;
+    height: auto;
+    margin-left: 3%;
+}
+
+
+.login {
+    background-image: url('task4 img/form_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 296px;
+    width: 470px;
+
+}
+
+.questionAnabout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.questionAnabout h3 {
+    margin: 0;
+    font-size: 1rem;
+    position: relative;
+    right: 15%;
+    top: 0px;
+}
+
+#question {
+    color: white;
+    background-color: brown;
+    margin: 0;
+    height: 23%;
+}
+
+#questioncolor {
+    color: rgb(48, 48, 236);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.formAndimg {
+    display: flex;
+}
+
+.form {
+    line-height: 13%;
+}
+
+.form #box21 {
+    position: relative;
+    left: 2%;
+}
+
+
+
+#confidential-container {
+    padding: 10px; 
+}
+
+#confidential-img {
+    max-width: 100%; 
+    height: auto; 
+    transform: rotate(11deg);
+}
+
+.confidential-class {
+    border-radius: 5px;
+}
+
+
+.form-control {
+    display: block;
+    width: 87%;
+    padding: -0.625rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    top: 1%;
+}
+
+.privacyAndButton button {
+    position: relative;
+    left: 42%;
+    bottom: 34px;
+    background-color: brown;
+    color: aliceblue;
+}
+
+/* /////BOX1 //////*/
+.custom-font {
+    font-size: 21px;
+  }
+  .text-brown {
+    color: brown;
+  }
+  .random-font {
+    font-size: 17px;
+    color: brown;
+  }
+  #content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px; 
+}
+#content-text {
+    font-size: 12px; 
+
+}
+#content-image {
+    width: 76px;
+    height: 114px;
+    position: relative;
+    top: -25px;
+}
+#custom-divider {
+    border: 1px solid black;
+    width: 67%;
+    margin: 0px auto;
+}
+#custom-button {
+    background-color:brown; 
+    color: white; 
+    padding: 0px 0px; 
+    border-radius: 0px; 
+    border: none; 
+    font-size: 20px; 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 70px;
+    height: 23px;
+}
+#custom-button:hover {
+    background-color: brown; 
+}
+#custom-button-img {
+    width: 10px; 
+    height: auto;
+}
+
+
+/* /////BOX2////// */
+.custom-heading {
+    font-size: 24px; 
+}
+
+.text-brown {
+    color: brown; 
+}
+#traffic-law-text {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+.paragraph-traffic {
+    color: black; 
+    text-align: left; 
+}
+#content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+#custom-divider1 {
+    border: 1px solid black;
+    width: 127%;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: 45px;
+    left: 19px;
+}
+#custom-button1 {
+    background-color: brown;
+    color: white;
+    padding: 0px 0px;
+    border-radius: 0px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 53px;
+    left: 27px;
+    height: 23px;
+}
+#custom-button-img {
+    width: 10px; 
+    height: auto;
+    
+}
+#custom-image {
+    width: 134px; 
+    height: auto;
+    position: relative;
+    bottom: 74px;
+    left: 4px;
+}
+#box2hr{
+    position: relative;
+    bottom: 72px;
+}
+
+
+/* //////BOX2SECONDROW////// */
+#case-heading {
+    font-size: 24px;
+    position: relative;
+    bottom: 96px;
+}
+
+.case-results {
+    color: brown; 
+}
+#client-help-text {
+    font-size: 16px; 
+    line-height: 1.3; 
+    text-align: left; 
+    position: relative;
+    bottom: 100px;
+}
+
+.paragraph-client {
+    color: black; 
+    margin-bottom: 10px; 
+}
+
+/* Wrapper for flex alignment */
+#content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between sections */
+}
+
+/* Left section containing HR & button */
+#left-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    gap: 8px; 
+}
+
+/* Styling for the horizontal rule */
+#custom-divider-13 {
+    border: 1px solid black;
+    position: relative;
+    top: -121px;
+    width: 168px; 
+    margin: 0;
+}
+
+/* Styling for the button */
+#custom-button-14 {
+    background-color: brown; 
+    color: white;
+    padding: 0px 0px;
+    border-radius: 0px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 23px;
+    position: relative;
+    bottom: 129px;
+    left: 32px;
+}
+
+#custom-button-14:hover {
+    background-color: darkbrown;
+}
+
+/* Styling for button image */
+#custom-button-img-15 {
+    width: 10px;
+    height: auto;
+}
+
+/* Styling for the image */
+#custom-image-16 {
+    width: 116px; /* Adjust size */
+    height: auto;
+    position: relative;
+    bottom: 164px;
+    left: 15px;
+}

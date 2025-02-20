@@ -1,0 +1,71 @@
+@media (max-width:576px) {
+    .hrlinetop {
+        margin-left: 211px;
+        width: 288px;
+    }
+    .call {
+       
+        font-size: 22px;
+    }
+    .Get {
+        font-size: 18px;
+    }
+    
+}
+@media (max-width:500){
+    #confidential {
+        transform: rotate(15deg);
+        height: 44px;
+        margin-top: 0px;
+        position: relative;
+        left: 11%;
+        top: 16%;
+        
+    }
+}
+
+@media (max-width:768px) {
+    .number {
+        font-size: 27px;
+    }
+    .Get {
+        font-size: 11px;
+    }
+    .call {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:992px) {
+    .call {
+        font-size: 18px;
+    }
+    .Get {
+        font-size: 18px;
+    }
+    .number {
+        font-size: 38px;
+    }
+    .Get {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    
+.call {
+    font-size: 20px;
+}
+.Get {
+    font-size: 16px;
+}
+.headerline {
+    width: 248px;
+    margin: 0px;
+    margin-left: 44px;
+    border: 2px solid black;
+}
+}
+
+@media (max-width:1400px) {}
